@@ -1,4 +1,4 @@
-puts "enter one number"
+puts "enter 2 numbers"
 	one_number = gets.chomp 
 puts "enter another number"	
 	two_number = gets.chomp
@@ -21,6 +21,14 @@ attr_accessor'one_number', 'two_number'
 		@one_number.to_i * @two_number.to_i
 	end
 end 	
+
+first_array = [9 , 2]
+second_array = Array.new(first_array)
+
+
+
+
+
 
 Money = Number.new one_number,two_number
 
